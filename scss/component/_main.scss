@@ -2,6 +2,12 @@
 /*              Main styles                      */
 /* ============================================= */
 
+body {
+  font-family: Lucida Console, Courier, monospace;
+}
+h1 {
+  margin-bottom: 125px;
+}
 
 .wrapper {
   width: 80%;
@@ -9,10 +15,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: lavender;
+  height: 100vh;
 }
 
 table {
   border: 1px solid grey;
+  width: 70%;
   thead{
     background: grey;
   }
@@ -28,4 +37,12 @@ td span {
 
 .property {
   background-color: lightskyblue;
+}
+
+.description {
+  background-color: wheat;
+}
+
+.vals {
+  background-color: peachpuff;
 }
